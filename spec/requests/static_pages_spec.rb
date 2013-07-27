@@ -17,7 +17,7 @@ describe "StaticPages" do
 
   describe "About page" do
 
-    it "should have the content 'About Us'" do
+    it "should have the content 'About Social DINKS'" do
       visit '/static_pages/about'
       expect(page).to have_content('About Us')
     end
